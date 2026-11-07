@@ -1,9 +1,9 @@
 {
- "version": "2.3.7",
- "tag": "vhub-2.3.7",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.7/vhub.exe",
- "sha256": "5232315e297f58a09ef2c38e071188e618693df92d87f58f750fed5a1ee43224",
- "size": 37279232,
+ "version": "2.3.8",
+ "tag": "vhub-2.3.8",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.8/vhub.exe",
+ "sha256": "c4628d5866b20e7363c24a28f34e910b19d10b8a9bd6a014179357f067ca6b72",
+ "size": 37310464,
  "date": "2026-11-07",
- "notes": "Xin d\u00f9ng m\u00e1y in \u0111ang \u1edf m\u00e1y kh\u00e1c; Ng\u1eaft k\u1ebft n\u1ed1i \u1edf khay \u0111\u1ec3 nh\u01b0\u1eddng m\u00e1y in; t\u1ef1 \u0111i \u0111\u01b0\u1eddng Tailscale khi m\u1ea1ng n\u1ed9i b\u1ed9 b\u1ecb ch\u1eb7n; t\u1ef1 b\u00e1o b\u1ea3n m\u1edbi; khay t\u1ef1 m\u1edf l\u1ea1i sau khi c\u1eadp nh\u1eadt."
+ "notes": "Android: h\u1ed9p Kh\u1ed5 gi\u1ea5y n\u00f3i r\u00f5 \u0111i\u1ec7n tho\u1ea1i Android in kh\u1ed5 M\u1eb7c \u0111\u1ecbnh; h\u01b0\u1edbng d\u1eabn in t\u1eeb Android s\u1eeda \u0111\u00fang m\u00e0n h\u00ecnh th\u1eadt."
 }
