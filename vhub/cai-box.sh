@@ -29,7 +29,9 @@ vhub_cai_box() {
 
   local tmp
   tmp="$(mktemp -d /tmp/vhub-box.XXXXXX)"
-  trap 'rm -rf "$tmp"' EXIT
+  # Ghi SẴN đường dẫn vào lệnh dọn: trap EXIT chạy sau khi hàm đã thoát ⇒ biến cục bộ `tmp` không còn,
+  # với `set -u` lệnh dọn báo «tmp: unbound variable», thoát mã 1 và bỏ lại thư mục tạm (đo 07/11/2026).
+  trap "rm -rf -- '$tmp'" EXIT
 
   echo "[vhub] tải gói cài box $ver …"
   curl -fsSL --retry 3 --retry-delay 2 -o "$tmp/goi.tar.gz" "$url"
