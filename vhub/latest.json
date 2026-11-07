@@ -1,9 +1,9 @@
 {
- "version": "2.3.8",
- "tag": "vhub-2.3.8",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.8/vhub.exe",
- "sha256": "c4628d5866b20e7363c24a28f34e910b19d10b8a9bd6a014179357f067ca6b72",
- "size": 37310464,
+ "version": "2.3.9",
+ "tag": "vhub-2.3.9",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.9/vhub.exe",
+ "sha256": "70e45cbfe9a654de5cad7bb9bdad1ebfec0f3476b79661b3da47212eca31ceac",
+ "size": 37319168,
  "date": "2026-11-07",
- "notes": "Android: h\u1ed9p Kh\u1ed5 gi\u1ea5y n\u00f3i r\u00f5 \u0111i\u1ec7n tho\u1ea1i Android in kh\u1ed5 M\u1eb7c \u0111\u1ecbnh; h\u01b0\u1edbng d\u1eabn in t\u1eeb Android s\u1eeda \u0111\u00fang m\u00e0n h\u00ecnh th\u1eadt."
+ "notes": "C\u1eadp nh\u1eadt kh\u00f4ng c\u00f2n h\u1ecfng khi Avast \u0111ang qu\u00e9t b\u1ea3n m\u1edbi (vhub t\u1ef1 ch\u1edd); h\u1ed9p Kh\u1ed5 gi\u1ea5y ghi t\u00ean kh\u1ed5 chu\u1ea9n A6, A7, A6 v\u1eadn \u0111\u01a1n, A7 v\u1eadn \u0111\u01a1n."
 }
