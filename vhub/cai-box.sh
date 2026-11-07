@@ -13,9 +13,9 @@
 
 vhub_cai_box() {
   set -euo pipefail
-  local ver="2.3.9"
-  local url="https://github.com/quannh/quannh/releases/download/vhub-2.3.9/vhub-box-arm64-2.3.9.tar.gz"
-  local sha="608bcd6b6beb02e818f4f7c71ffa77cd25cf2ab6bc8cdc54924efb7a8c0911ee"
+  local ver="2.3.10"
+  local url="https://github.com/quannh/quannh/releases/download/vhub-2.3.10/vhub-box-arm64-2.3.10.tar.gz"
+  local sha="233e36f9265ba29c40a2c27673b568fa0d842e1e7303c473dcc6a1fc417d7b91"
 
   if [ "$(id -u)" != 0 ]; then
     echo "[LỖI] Cần quyền root — chạy: curl -fsSL … | sudo bash" >&2

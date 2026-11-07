@@ -1,9 +1,9 @@
 {
- "version": "2.3.9",
- "tag": "vhub-2.3.9",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.9/vhub.exe",
- "sha256": "70e45cbfe9a654de5cad7bb9bdad1ebfec0f3476b79661b3da47212eca31ceac",
- "size": 37319168,
+ "version": "2.3.10",
+ "tag": "vhub-2.3.10",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.10/vhub.exe",
+ "sha256": "6f085a1d6542b9bb0129369eb7f659a29847907cde008f54686f1f4e2b0c1051",
+ "size": 37326848,
  "date": "2026-11-07",
- "notes": "C\u1eadp nh\u1eadt kh\u00f4ng c\u00f2n h\u1ecfng khi Avast \u0111ang qu\u00e9t b\u1ea3n m\u1edbi (vhub t\u1ef1 ch\u1edd); h\u1ed9p Kh\u1ed5 gi\u1ea5y ghi t\u00ean kh\u1ed5 chu\u1ea9n A6, A7, A6 v\u1eadn \u0111\u01a1n, A7 v\u1eadn \u0111\u01a1n."
+ "notes": "C\u00e0i \u0111\u1eb7t: ch\u1ecdn th\u1eddi gian t\u1ef1 nh\u01b0\u1eddng m\u00e1y in b\u1eb1ng 4 n\u00fat b\u00e0y s\u1eb5n."
 }
