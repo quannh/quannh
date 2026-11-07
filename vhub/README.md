@@ -1,4 +1,4 @@
-# vhub — tệp cài (bản 2.3.5)
+# vhub — tệp cài (bản 2.3.6)
 
 vhub thay VirtualHere: chia sẻ máy in, máy quét USB cắm ở box TV (Armbian) cho máy tính Windows và điện thoại
 (AirPrint, Mopria). Mã nguồn ở repo riêng tư; ở đây chỉ có tệp cài.
@@ -10,16 +10,26 @@ curl -fsSL https://raw.githubusercontent.com/quannh/quannh/main/vhub/cai-box.sh 
 ```
 
 Box ở chi nhánh khác (nối qua Internet): thêm `-s -- --tailscale-authkey <khóa>` sau `sudo bash`.
-Script tải gói `vhub-box-arm64-2.3.5.tar.gz` từ [Releases](https://github.com/quannh/quannh/releases/tag/vhub-2.3.5), **kiểm SHA-256 ghim sẵn** (`3dbc56eb03c111d0002abe5298dd3872ba2515ff75586ae017bb35f3c83ed5b1`) rồi mới cài.
+Script tải gói `vhub-box-arm64-2.3.6.tar.gz` từ [Releases](https://github.com/quannh/quannh/releases/tag/vhub-2.3.6), **kiểm SHA-256 ghim sẵn** (`c2b15ced7315e369e8331b93abfec6e7390ef2e0a2aa6b65092ca757fb76671b`) rồi mới cài.
 Cài xong màn hình in **mã ghép 6 số** cho máy tính đầu tiên (dùng trong 15 phút).
 
 ## Cài trên máy tính Windows
 
-Tải [`vhub-setup-2.3.5.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.5/vhub-setup-2.3.5.exe), chạy, bấm Tiếp theo → Cài đặt.
-Windows có thể hiện «Windows đã bảo vệ PC của bạn» (bộ cài chưa ký số): bấm **Thông tin thêm → Vẫn chạy**.
-Cài im lặng cho nhiều máy: `vhub-setup-2.3.5.exe /VERYSILENT /SUPPRESSMSGBOXES /NORESTART`.
+**Tải [`vhub.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.6/vhub.exe) (~35 MB), bấm là chạy** — không có trình cài nhiều bước,
+không cần Internet lúc cài (driver USB/IP đã nằm sẵn trong tệp). Lần đầu mở, vhub hiện màn chào: bấm **Cài đặt**,
+đồng ý **một lần** hộp hỏi quyền của Windows ⇒ vhub tự cài driver, chạy nền khi bật máy, có ở menu Start và
+Settings → Apps. Bấm «Không» ở hộp hỏi quyền thì vhub vẫn mở như ứng dụng (ghép box được, chưa gắn được máy in).
+Đã có vhub mà mở `vhub.exe` bản mới hơn ⇒ vhub hỏi «Cập nhật lên 2.3.6?».
+
+Windows/Avast có thể hiện «Windows đã bảo vệ PC của bạn» hoặc «đang phân tích tệp» (tệp chưa ký số):
+bấm **Thông tin thêm → Vẫn chạy**, hoặc chờ Avast quét xong rồi mở lại.
+
+Cài hàng loạt / im lặng: [`vhub-setup-2.3.6.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.6/vhub-setup-2.3.6.exe)
+`/VERYSILENT /SUPPRESSMSGBOXES /NORESTART` (mã thoát 100: chưa có driver; 101: dịch vụ không chạy), hoặc
+`vhub.exe setup install` trong cửa sổ lệnh quyền quản trị (cùng mã thoát).
 
 ## Kiểm toàn vẹn
 
-`SHA256SUMS` trong release. Giấy phép thành phần bên thứ ba: usbip-win2 (GPL-3.0, bộ cài Windows tải từ
-GitHub của tác giả), AirSane (GPL-3.0), Epson Scan 2 (LGPL) — nguồn ghi trong `NGUON.txt` của gói box.
+`SHA256SUMS` trong release. Giấy phép thành phần bên thứ ba: usbip-win2 (GPL-3.0 — bộ cài chính thức của tác giả
+nằm sẵn trong `vhub.exe`/`vhub-setup-2.3.6.exe`, mã nguồn https://github.com/vadimgrn/usbip-win2), AirSane (GPL-3.0), Epson Scan 2
+(LGPL) — nguồn ghi trong `NGUON.txt` của gói box.
