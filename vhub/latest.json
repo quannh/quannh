@@ -1,9 +1,9 @@
 {
- "version": "2.3.12",
- "tag": "vhub-2.3.12",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.12/vhub.exe",
- "sha256": "db2f960794c3a799797772f088a8f9262c3b229a2dfd0d18dd2f6145100f32ed",
- "size": 37352960,
+ "version": "2.3.13",
+ "tag": "vhub-2.3.13",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.13/vhub.exe",
+ "sha256": "2cd1ea79e5cb275acd2925db71562adad6eb17cfe853d1180385efc8995be6ec",
+ "size": 37354496,
  "date": "2026-11-08",
- "notes": "S\u1eeda m\u00e1y qu\u00e9t qua m\u1ea1ng: t\u00ean \u0111\u00fang EPSON L3110 Series, box t\u1ef1 nh\u1eadn m\u00e1y qu\u00e9t khi m\u00e1y t\u00ednh r\u1ea3nh."
+ "notes": "S\u1eeda m\u00e1y in \u0111a n\u0103ng (L3110) kh\u00f4ng ch\u1ecbu nh\u01b0\u1eddng cho \u0111i\u1ec7n tho\u1ea1i qu\u00e9t/in khi driver Epson \u0111ang ch\u1ea1y."
 }
