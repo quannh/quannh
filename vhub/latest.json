@@ -1,9 +1,9 @@
 {
- "version": "2.3.10",
- "tag": "vhub-2.3.10",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.10/vhub.exe",
- "sha256": "6f085a1d6542b9bb0129369eb7f659a29847907cde008f54686f1f4e2b0c1051",
- "size": 37326848,
- "date": "2026-11-07",
- "notes": "C\u00e0i \u0111\u1eb7t: ch\u1ecdn th\u1eddi gian t\u1ef1 nh\u01b0\u1eddng m\u00e1y in b\u1eb1ng 4 n\u00fat b\u00e0y s\u1eb5n."
+ "version": "2.3.11",
+ "tag": "vhub-2.3.11",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.11/vhub.exe",
+ "sha256": "c00f7ce9a7ba094d8b92da56da2ac4999a53087fb36b341d7c0e93583ea23771",
+ "size": 37352960,
+ "date": "2026-11-08",
+ "notes": "\u0110i\u1ec7n tho\u1ea1i v\u00e0 Mac lu\u00f4n th\u1ea5y m\u00e1y qu\u00e9t L3110 k\u1ec3 c\u1ea3 khi m\u00e1y t\u00ednh \u0111ang g\u1eafn; b\u1ea5m qu\u00e9t th\u00ec m\u00e1y t\u00ednh t\u1ef1 nh\u01b0\u1eddng r\u1ed3i g\u1eafn l\u1ea1i."
 }
