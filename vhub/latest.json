@@ -1,9 +1,9 @@
 {
- "version": "2.3.13",
- "tag": "vhub-2.3.13",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.13/vhub.exe",
- "sha256": "2cd1ea79e5cb275acd2925db71562adad6eb17cfe853d1180385efc8995be6ec",
- "size": 37354496,
- "date": "2026-11-08",
- "notes": "S\u1eeda m\u00e1y in \u0111a n\u0103ng (L3110) kh\u00f4ng ch\u1ecbu nh\u01b0\u1eddng cho \u0111i\u1ec7n tho\u1ea1i qu\u00e9t/in khi driver Epson \u0111ang ch\u1ea1y."
+ "version": "2.3.14",
+ "tag": "vhub-2.3.14",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.14/vhub.exe",
+ "sha256": "30e4383ba26dbc4dc5ab0d1ed0d3fea25d25fdc01519f322014629ec576b1b55",
+ "size": 37523968,
+ "date": "2026-11-10",
+ "notes": "Qu\u1ea3n l\u00fd VirtualHere tr\u00ean box ngay trong app (b\u1eadt/t\u1eaft, t\u1ef1 ch\u1ea1y, EasyFind, ai \u0111ang d\u00f9ng); t\u1eaft ch\u1ea1y n\u1ec1n an to\u00e0n h\u01a1n v\u00e0 c\u00f3 ghi L\u1ecbch s\u1eed."
 }
