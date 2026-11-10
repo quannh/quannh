@@ -1,9 +1,9 @@
 {
- "version": "2.3.15",
- "tag": "vhub-2.3.15",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.15/vhub.exe",
- "sha256": "148d044c465fbb234e8ef22dd3220f5e93ca9911a77be0967399b074327184f6",
- "size": 37525504,
+ "version": "2.3.16",
+ "tag": "vhub-2.3.16",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.16/vhub.exe",
+ "sha256": "632d7ddf299589d71b574e9b011c20a7d7927013c1f184dcf98d592551357db9",
+ "size": 37619200,
  "date": "2026-11-10",
- "notes": "Trang Box c\u00f3 n\u00fat K\u1ebft n\u1ed1i l\u1ea1i khi \u0111ang ng\u1eaft k\u1ebft n\u1ed1i; h\u01b0\u1edbng d\u1eabn \u0111\u1ec3 Avast th\u00f4i ch\u1eb7n vhub."
+ "notes": "S\u1eeda h\u01a1n 100 l\u1ed7i giao di\u1ec7n: tr\u1ea1ng th\u00e1i kh\u1edbp nhau \u1edf m\u1ecdi trang, Ng\u1eaft k\u1ebft n\u1ed1i ch\u1edd in xong, L\u1ecbch s\u1eed d\u1ec5 \u0111\u1ecdc h\u01a1n."
 }
