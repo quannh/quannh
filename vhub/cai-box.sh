@@ -13,9 +13,9 @@
 
 vhub_cai_box() {
   set -euo pipefail
-  local ver="2.3.16"
-  local url="https://github.com/quannh/quannh/releases/download/vhub-2.3.16/vhub-box-arm64-2.3.16.tar.gz"
-  local sha="338828bd3eefaa5e8b0cf1253681f96cd0f4dd697c93defd60590372b8fd704c"
+  local ver="2.3.17"
+  local url="https://github.com/quannh/quannh/releases/download/vhub-2.3.17/vhub-box-arm64-2.3.17.tar.gz"
+  local sha="b08b390b977cb9be10c0b48f55c6ad0bc3a6a31d50f5624f26a2e4f0e6dc88f3"
 
   if [ "$(id -u)" != 0 ]; then
     echo "[LỖI] Cần quyền root — chạy: curl -fsSL … | sudo bash" >&2
@@ -34,7 +34,8 @@ vhub_cai_box() {
   trap "rm -rf -- '$tmp'" EXIT
 
   echo "[vhub] tải gói cài box $ver …"
-  curl -fsSL --retry 3 --retry-delay 2 -o "$tmp/goi.tar.gz" "$url"
+  # Giới hạn giờ: mạng chập/DNS treo không làm lệnh cài đứng mãi (gói ~8 MB, mạng chậm vẫn kịp 15 phút).
+  curl -fsSL --connect-timeout 15 --max-time 900 --retry 3 --retry-delay 2 -o "$tmp/goi.tar.gz" "$url"
   if ! printf '%s  %s\n' "$sha" "$tmp/goi.tar.gz" | sha256sum -c - >/dev/null 2>&1; then
     echo "[LỖI] Gói tải về KHÔNG khớp SHA-256 ghim sẵn — dừng, không cài gì." >&2
     return 1

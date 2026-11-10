@@ -1,9 +1,10 @@
 {
- "version": "2.3.16",
- "tag": "vhub-2.3.16",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.16/vhub.exe",
- "sha256": "632d7ddf299589d71b574e9b011c20a7d7927013c1f184dcf98d592551357db9",
- "size": 37619200,
- "date": "2026-11-10",
- "notes": "S\u1eeda h\u01a1n 100 l\u1ed7i giao di\u1ec7n: tr\u1ea1ng th\u00e1i kh\u1edbp nhau \u1edf m\u1ecdi trang, Ng\u1eaft k\u1ebft n\u1ed1i ch\u1edd in xong, L\u1ecbch s\u1eed d\u1ec5 \u0111\u1ecdc h\u01a1n."
+ "version": "2.3.17",
+ "tag": "vhub-2.3.17",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.17/vhub.exe",
+ "sha256": "6ccc19bc0ee4f23dc4acf0957c94f287e9666ef9f2fd7ded3d181c467fb87864",
+ "size": 37645824,
+ "date": "2026-11-11",
+ "notes": "Rà soát toàn bộ: ổn định hơn khi nhường/ngắt/cập nhật, gỡ cài chờ in xong, lần nối đầu nhanh và đúng đường hơn.",
+ "commit": "c7f2e9d1fd4eb3f6245f6271f4ca6ce7386f139d"
 }
