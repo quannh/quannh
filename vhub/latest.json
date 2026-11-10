@@ -1,9 +1,9 @@
 {
- "version": "2.3.14",
- "tag": "vhub-2.3.14",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.14/vhub.exe",
- "sha256": "30e4383ba26dbc4dc5ab0d1ed0d3fea25d25fdc01519f322014629ec576b1b55",
- "size": 37523968,
+ "version": "2.3.15",
+ "tag": "vhub-2.3.15",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.15/vhub.exe",
+ "sha256": "148d044c465fbb234e8ef22dd3220f5e93ca9911a77be0967399b074327184f6",
+ "size": 37525504,
  "date": "2026-11-10",
- "notes": "Qu\u1ea3n l\u00fd VirtualHere tr\u00ean box ngay trong app (b\u1eadt/t\u1eaft, t\u1ef1 ch\u1ea1y, EasyFind, ai \u0111ang d\u00f9ng); t\u1eaft ch\u1ea1y n\u1ec1n an to\u00e0n h\u01a1n v\u00e0 c\u00f3 ghi L\u1ecbch s\u1eed."
+ "notes": "Trang Box c\u00f3 n\u00fat K\u1ebft n\u1ed1i l\u1ea1i khi \u0111ang ng\u1eaft k\u1ebft n\u1ed1i; h\u01b0\u1edbng d\u1eabn \u0111\u1ec3 Avast th\u00f4i ch\u1eb7n vhub."
 }
