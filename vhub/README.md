@@ -1,4 +1,4 @@
-# vhub — tệp cài (bản 2.3.17)
+# vhub — tệp cài (bản 2.3.18)
 
 vhub thay VirtualHere: chia sẻ máy in, máy quét USB cắm ở box TV (Armbian) cho máy tính Windows và điện thoại
 (AirPrint, Mopria). Mã nguồn ở repo riêng tư; ở đây chỉ có tệp cài.
@@ -10,26 +10,26 @@ curl -fsSL https://raw.githubusercontent.com/quannh/quannh/main/vhub/cai-box.sh 
 ```
 
 Box ở chi nhánh khác (nối qua Internet): thêm `-s -- --tailscale-authkey <khóa>` sau `sudo bash`.
-Script tải gói `vhub-box-arm64-2.3.17.tar.gz` từ [Releases](https://github.com/quannh/quannh/releases/tag/vhub-2.3.17), **kiểm SHA-256 ghim sẵn** (`b08b390b977cb9be10c0b48f55c6ad0bc3a6a31d50f5624f26a2e4f0e6dc88f3`) rồi mới cài.
+Script tải gói `vhub-box-arm64-2.3.18.tar.gz` từ [Releases](https://github.com/quannh/quannh/releases/tag/vhub-2.3.18), **kiểm SHA-256 ghim sẵn** (`e8088af2bc86870eeb8e48708441d2eb72a19a324524c382399a56f178258b1f`) rồi mới cài.
 Cài xong màn hình in **mã ghép 6 số** cho máy tính đầu tiên (dùng trong 15 phút).
 
 ## Cài trên máy tính Windows
 
-**Tải [`vhub.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.17/vhub.exe) (~35 MB), bấm là chạy** — không có trình cài nhiều bước,
+**Tải [`vhub.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.18/vhub.exe) (~35 MB), bấm là chạy** — không có trình cài nhiều bước,
 không cần Internet lúc cài (driver USB/IP đã nằm sẵn trong tệp). Lần đầu mở, vhub hiện màn chào: bấm **Cài đặt**,
 đồng ý **một lần** hộp hỏi quyền của Windows ⇒ vhub tự cài driver, chạy nền khi bật máy, có ở menu Start và
 Settings → Apps. Bấm «Không» ở hộp hỏi quyền thì vhub vẫn mở như ứng dụng (ghép box được, chưa gắn được máy in).
-Đã có vhub mà mở `vhub.exe` bản mới hơn ⇒ vhub hỏi «Cập nhật lên 2.3.17?».
+Đã có vhub mà mở `vhub.exe` bản mới hơn ⇒ vhub hỏi «Cập nhật lên 2.3.18?».
 
 Windows/Avast có thể hiện «Windows đã bảo vệ PC của bạn» hoặc «đang phân tích tệp» (tệp chưa ký số):
 bấm **Thông tin thêm → Vẫn chạy**, hoặc chờ Avast quét xong rồi mở lại.
 
-Cài hàng loạt / im lặng: [`vhub-setup-2.3.17.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.17/vhub-setup-2.3.17.exe)
+Cài hàng loạt / im lặng: [`vhub-setup-2.3.18.exe`](https://github.com/quannh/quannh/releases/download/vhub-2.3.18/vhub-setup-2.3.18.exe)
 `/VERYSILENT /SUPPRESSMSGBOXES /NORESTART` (mã thoát 100: chưa có driver; 101: dịch vụ không chạy), hoặc
 `vhub.exe setup install` trong cửa sổ lệnh quyền quản trị (cùng mã thoát).
 
 ## Kiểm toàn vẹn
 
 `SHA256SUMS` trong release. Giấy phép thành phần bên thứ ba: usbip-win2 (GPL-3.0 — bộ cài chính thức của tác giả
-nằm sẵn trong `vhub.exe`/`vhub-setup-2.3.17.exe`, mã nguồn https://github.com/vadimgrn/usbip-win2), AirSane (GPL-3.0), Epson Scan 2
+nằm sẵn trong `vhub.exe`/`vhub-setup-2.3.18.exe`, mã nguồn https://github.com/vadimgrn/usbip-win2), AirSane (GPL-3.0), Epson Scan 2
 (LGPL) — nguồn ghi trong `NGUON.txt` của gói box.

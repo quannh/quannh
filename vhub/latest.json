@@ -1,10 +1,10 @@
 {
- "version": "2.3.17",
- "tag": "vhub-2.3.17",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.17/vhub.exe",
- "sha256": "6ccc19bc0ee4f23dc4acf0957c94f287e9666ef9f2fd7ded3d181c467fb87864",
- "size": 37645824,
+ "version": "2.3.18",
+ "tag": "vhub-2.3.18",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.18/vhub.exe",
+ "sha256": "860f5a441634b6e3e6d66689b6aff01acb35106fa06c6aafa19eaf4fa3c2f36b",
+ "size": 37646848,
  "date": "2026-11-11",
- "notes": "Rà soát toàn bộ: ổn định hơn khi nhường/ngắt/cập nhật, gỡ cài chờ in xong, lần nối đầu nhanh và đúng đường hơn.",
- "commit": "c7f2e9d1fd4eb3f6245f6271f4ca6ce7386f139d"
+ "notes": "Ổn định hơn: box không chậm khi CUPS treo, cập nhật box chờ in xong; giao diện có lớp bảo vệ CSP; nhà phát hành Viện Thiết Kế.",
+ "commit": "841479a20a8a960abd90b18ffb2b616727abce96"
 }
