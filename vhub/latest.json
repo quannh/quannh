@@ -1,10 +1,10 @@
 {
- "version": "2.3.18",
- "tag": "vhub-2.3.18",
- "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.18/vhub.exe",
- "sha256": "860f5a441634b6e3e6d66689b6aff01acb35106fa06c6aafa19eaf4fa3c2f36b",
+ "version": "2.3.19",
+ "tag": "vhub-2.3.19",
+ "url": "https://github.com/quannh/quannh/releases/download/vhub-2.3.19/vhub.exe",
+ "sha256": "9a72b8fdc400f24c14527e8b29be87b12aa0315d2f5c02753540ed8941cb5df3",
  "size": 37646848,
  "date": "2026-11-11",
- "notes": "Ổn định hơn: box không chậm khi CUPS treo, cập nhật box chờ in xong; giao diện có lớp bảo vệ CSP; nhà phát hành Viện Thiết Kế.",
- "commit": "841479a20a8a960abd90b18ffb2b616727abce96"
+ "notes": "Bộ cài box hỗ trợ Debian 12; cập nhật box chờ máy tính in xong.",
+ "commit": "78f4f4f7eee5d8ebb86628d8090bb2186f1dfedd"
 }
